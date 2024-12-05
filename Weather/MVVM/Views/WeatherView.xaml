@@ -71,7 +71,7 @@
                                 IsAnimationEnabled="False"
                                 Source="{Binding weather_code, Converter={StaticResource CodeToLottieConverter}}"
                                 WidthRequest="50" />
-                            <Label Text="{Binding time}" TextColor="{StaticResource Yellow100Accent}" />
+                            <Label Text="{Binding time}" TextColor="Yellow" />
                             <Label Text="{Binding temperature_2m_max, StringFormat='{0}°C'}" />
                             <Label Text="{Binding weather_code, Converter={StaticResource CodeToWeatherConverter}}" />
                         </VerticalStackLayout>
